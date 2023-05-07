@@ -26,7 +26,7 @@
   <div *ngIf="isEditing">
     <form (submit)="updatePersona()">
         <input class="contact__input" type="text" name="apellido" [(ngModel)]="selectedPersona.apellido" placeholder="apellido">
-        <input  class="contact__input" type="text" name="nombre" [(ngModel)]="selectedPersona.name" placeholder="nombre">
+        <input  class="contact__input" type="text" name="nombre" [(ngModel)]="selectedPersona.nombre" placeholder="nombre">
         <input  class="contact__input" type="date" name="fechaDeNacimiento" [(ngModel)]="selectedPersona.fechaDeNacimiento" placeholder="fechaDeNacimiento">
         <input  class="contact__input" type="text" name="direccion" [(ngModel)]="selectedPersona.direccion" placeholder="direccion">
         <input  class="contact__input" type="text" name="telefono" [(ngModel)]="selectedPersona.telefono" placeholder="telefono">
